@@ -1,13 +1,22 @@
 #section1{
-    background-color: rgb(238, 0, 90)
+   height: 100vh;
+      background: url("https://res.cloudinary.com/holiday-images/image/upload/q_auto:eco,f_auto,w_1600,h_900,c_fill,q_auto:eco,f_auto/v1429106412/Italy_Lake_Garda_6_bmvlsf.jpg")
+       no-repeat center center fixed;
+       background-size: cover;
 }
 #section2{
-    background-color: rgb(150, 150, 90)
+    height: 100vh;
+      background: url("http://pastmycurfew.com/wp-content/uploads/2012/11/German-castle.jpg")
+       no-repeat center center fixed;
+       background-size: cover;
 }
 #section3{
-    background-color: rgb(50, 200, 60)
+  height: 100vh;
+   background: url("http://www.eligiblemagazine.com/wp-content/uploads/2016/04/featured-image.jpg")
+       no-repeat center center fixed;
+       background-size: cover;
 }
 .section{
-    text-align: center;
-    color: white;
+    text-align: top ;
+    color: white ;
 }
