@@ -12,7 +12,7 @@ margin-right:auto;
 .mainheading{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #6495ED  ;
+    background-color: white ;
 }
 
 h2{
@@ -39,3 +39,6 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+     background-color:#99ffe6;
+    }

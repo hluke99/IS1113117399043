@@ -18,16 +18,30 @@
         
         <form method="POST" action="Ebus2.php">
         
-        <label for="salesforce">
+        <label for="Salesforce (SaaS)">
         <input type="radio" Id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-        salesforce @ $100
+        Salesforce @ $100
         </label>
         
         <br/>
         
-        <label for="aws">
+        <label for="Cloud9 (PaaS)">
+        <input type="radio" Id="cloud9" name="product" onClick="disablebtnProceed()"/>
+        Cloud9 @ $200
+        </label>
+        
+        <br/>
+        
+        <label for="AWS (IaaS)">
         <input type="radio" Id="aws" name="product" onClick="disablebtnProceed()"/>
         AWS @ $300
+        </label>
+        
+        <br/>
+        
+        <label for="Gmail (CaaS)">
+        <input type="radio" Id="gmail" name="product" onClick="disablebtnProceed()"/>    
+        Gmail @ $400
         </label>
         
         <br/>
@@ -36,6 +50,20 @@
         <label for="subtotal">
         Sub Total
         <input type="text" Id="subtotal" value="0.00" readonly/>
+        </label>
+        
+        <br/>
+        
+        <label for="discount">
+        Discount @ 5%
+        <input type="text" id="discount" name="discount" value="0.00" readonly/>
+        </label>
+        
+        <br/>
+        
+        <label for="vat">
+        VAT @ 10%   
+        <input type="text" id="vat" name="vat" value="0.00" readonly/>
         </label>
         
         <br/>
