@@ -1,6 +1,8 @@
 /* global $ */
 
 function validateDetails(){
+   
+   
     
     var pin;
     var name;
@@ -9,33 +11,36 @@ function validateDetails(){
     pin = document.getElementById("user_pin").value;
     
     if (pin == ""){
-        alert("Please enter your PIN");
+        alert("Please Enter your PIN");
     }
-    else if (String(pin).length < 4){
-        alert("Please make sure your PIN is accurate");
+    else if (String(pin).length <4){
+        alert("Please Ensure you PIN is Correct");
+    }
+    else {
+        enablebtnPurchase()
     }
     
-    
+
     name = document.getElementById("name").value;
-    if (name == ""){
+    
+     if(name == ""){
         alert("Please enter your Name");
-    }
-    else if (String(name));
-    
-    
-    email = document.getElementById("email").value;
-    
-    if (email ==""){
-        alert("Please enter your Email")
-    }
-    else{
-        enablebtnPurchase();
-    }
+}
+   
+   
+   email = document.getElementById("email").value;
+   
+   if(email == ""){
+       alert("Please enter your Email");
+   }
 }
 
-function enablebtnPurchase(){
+
+
+
+ function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);
-}
+   }
 
 function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled', true);

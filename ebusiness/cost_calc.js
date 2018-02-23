@@ -6,7 +6,7 @@ function calcSub(){
     
 
     
-    if(document.getElementById('salesforce').checked) {
+ if(document.getElementById('salesforce').checked) {
     argSubTotal = 100;
 }
 
