@@ -18,3 +18,17 @@ margin: 0 auto;
 img{
     float: right;
 }
+
+.footer{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+text-align: center;
+padding:10px;
+background-color:#6495ED;
+}
+
+.experience{
+    text-align: center;
+}

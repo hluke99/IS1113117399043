@@ -16,9 +16,7 @@ session_start();
         
         
             <form action="Ebus3.php" method="POST">
-                <fieldset>
-                    
-                </fieldset>
+                
 
 
                     <label for="user_pin">PIN:</label>
