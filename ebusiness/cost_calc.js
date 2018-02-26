@@ -36,9 +36,9 @@ function calcDisVatTotal(parmSubTotal){
     
     discountAmt = subTotal * 0.05;
     vatAmt = subTotal * 0.10;
-    totalPrice = ((subTotal - discountAmt)+ vatAmt)
+    totalPrice = ((subTotal - discountAmt)+ vatAmt);
 
-    display(subTotal, discountAmt, vatAmt, totalPrice)
+    display(subTotal, discountAmt, vatAmt, totalPrice);
 }
 
 
