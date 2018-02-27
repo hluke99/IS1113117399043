@@ -3,6 +3,8 @@
     <head>
         <title>Select Product</title>
         
+        <link rel="stylesheet" href="Ebusdesign.css" type="text/css" />
+        
         <!-- JQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
@@ -10,12 +12,11 @@
         
     </head>
     
-    <body>
-        
+    <body class="body1">
+       <div class="input">
         <h4>Select a Product</h4>
         
         <br/>
-        
         <form method="POST" action="Ebus2.php">
         
         <label for="Salesforce (SaaS)">
@@ -82,6 +83,12 @@
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
-        
+    </div>
+    
+     <div class="footer">
+         <h5>Changed your mind?</h5>
+        <a href="../homepage.html">Cancel</a>
+    </div>
+    
     </body>
 </html>

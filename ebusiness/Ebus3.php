@@ -5,11 +5,16 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
+        
+        <link rel="stylesheet" href="Ebusdesign.css" type="text/css" />
+        
     </head>
-    <body>
+    <body class="body3">
+        <div class = receipt>
         <h4>RECEIPT</h4>
-    </body>
     
+    
+        
     <?php
     $name = $_POST["name"];
     $email = $_POST["email"];
@@ -20,11 +25,18 @@ session_start();
     ?>
     <br/>
     <?php
-    echo "Name is : $name " . "."
+    echo "Name is : $name" . "."
     ?>
     <br/>
     <?php
-    echo "Email is: $email " . "."
+    echo "Email is: $email" . "."
     ?>
-    
+        <br/>
+        <br/>
+        <h4>Thank you for your purchase from Cloudy Connections!</h4>
+        <br/>
+        <a href="../homepage.html">Return Home</a>
+        
+        </div>
+    </body>
 </html>
