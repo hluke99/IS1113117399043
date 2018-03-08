@@ -8,6 +8,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Css for the background images of each ebus page */
 .body1{
       height: 100vh;
       background: url("https://www.friday.ie/wp-content/uploads/2016/08/E-comm_trends.jpg")
@@ -24,6 +25,7 @@ no-repeat center center fixed;
 background-size: cover;
 }
    
+/* Css for the footers on each ebus page */
 .footer{
 position: absolute;
 bottom: 0;
@@ -35,4 +37,56 @@ background-color:#ffffff;
 }
 .footer{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css for the cancel button on ebus page 1 */
+a.cancel:link ,a.cancel:visited{
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.cancel:hover ,a.cancel:active {
+    background-color: red;
+}
+
+/* css for the return home button on ebus page 3 */
+a.home:link ,a.home:visited{
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.home:hover ,a.home:active {
+    background-color: green;
+}
+
+/* css for the cancel purchase button on ebus page 2 */
+a.home2:link ,a.home2:visited{
+    background-color:red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.home2:hover ,a.home2:active {
+    background-color: red;
+}
+
+/* css for the change purchase button on ebus page 2 */
+a.change:link ,a.change:visited{
+    background-color: #00ace6;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.change:hover ,a.change:active {
+    background-color: #00ace6;
 }

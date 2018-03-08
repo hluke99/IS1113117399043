@@ -1,3 +1,4 @@
+/* Css for the background images of each slide in travel */
 #section1{
    height: 100vh;
       background: url("https://res.cloudinary.com/holiday-images/image/upload/q_auto:eco,f_auto,w_1600,h_900,c_fill,q_auto:eco,f_auto/v1429106412/Italy_Lake_Garda_6_bmvlsf.jpg")
@@ -11,14 +12,30 @@
        background-size: cover;
 }
 #section3{
+    
   height: 100vh;
    background: url("https://www.ireland.ie/sites/default/files/styles/home_banner_landscape/public/paragraph_image/Home_Banner_02_Overlay.jpg?itok=0LQjMC1a")
        no-repeat center center fixed;
-       background-size: cover;
+       background-size: cover; 
 }
+
+/* Css for the text throughout the travel pages */
 .section{
     text-align: center ;
     color: white ;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Css for the home button on the last slide of travel */
+a.home:link, a.home:visited {
+   background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+}
+a.home:hover,a.home:active{
+     background-color: green;
 }

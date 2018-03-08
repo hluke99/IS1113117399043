@@ -18,7 +18,7 @@ session_start();
         <div class="input">
         <h4>Please enter your payment details</h4>
         
-        
+            <!-- PHP post method used here to save users name and email for use in receipt -->
             <form method="POST" action="Ebus3.php">
                 
 
@@ -43,13 +43,15 @@ session_start();
             
             
             <br/>
+            
+            <!-- Calling the validate function from ebus2validator to ensure details entered are usable -->
             <button onClick="validateDetails()">Validate</button>
             </div>
         
         <div class="footer">
          <h5>Changed your mind?</h5>
-        <a href="../homepage.html">Cancel Purchase</a>
-        <a href="Ebus1.php">Change Selection</a>
+        <a href="../homepage.html" class="home2">Cancel Purchase</a>
+        <a href="Ebus1.php" class="change">Change Selection</a>
         </div>
         
         <script type="text/javascript" src="ebus2_validator.js" ></script>

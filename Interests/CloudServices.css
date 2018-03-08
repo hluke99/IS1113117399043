@@ -41,3 +41,29 @@ h2{
 body {
      background-color:#99ffe6;
     }
+
+/* Css for the home and shop buttons on the bottom of cloud services page */
+a.shop:link, a.shop:visited {
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.shop:hover, a.shop:active {
+    background-color: green;
+}
+a.home:link, a.home:visited {
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.home:hover, a.home:active {
+    background-color: red;
+}

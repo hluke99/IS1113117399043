@@ -14,7 +14,7 @@ session_start();
         <h4>RECEIPT</h4>
     
     
-        
+        <!-- The following PHP code is used to recieve the variables sent over the post method and display them in the receipt -->
     <?php
     $name = $_POST["name"];
     $email = $_POST["email"];
@@ -35,7 +35,7 @@ session_start();
         <br/>
         <h4>Thank you for your purchase from Cloudy Connections!</h4>
         <br/>
-        <a href="../homepage.html">Return Home</a>
+        <a href="../homepage.html" class="home">Return Home</a>
         
         </div>
     </body>

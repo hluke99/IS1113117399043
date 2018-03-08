@@ -1,11 +1,11 @@
 /* global $ */ 
 
 function validateDetails(){
-  
+// declaring the variables
     var pin;
     var name;
     var email;
-    
+//ensuring the user cannot leave the PIN input box blank or less then 4 digits
     pin = document.getElementById("user_pin").value;
    { 
     if (pin == ""){
@@ -16,7 +16,7 @@ function validateDetails(){
         alert("Please Ensure you PIN is Correct");
         
     }
-    
+//ensuring the user cannot leave the name input box blank or less then 2 digits    
     name = document.getElementById("name").value;
      if(name == ""){
         alert("Please enter your Name");
@@ -26,7 +26,7 @@ function validateDetails(){
        alert("Please Ensure your details are correct");
        
    }
-   
+//ensuring the user cannot leave the email input blank or less then 5 digits
    email = document.getElementById("email").value;
    
    if(email == ""){
@@ -37,6 +37,7 @@ function validateDetails(){
         alert("Please enter a valid email");
         
     }
+// telling the function to enable the purchase button once all validations had been passed
    else {
    enablebtnPurchase();
 }

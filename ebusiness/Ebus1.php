@@ -12,11 +12,13 @@
         
     </head>
     
+    <!-- Content for online shop -->
     <body class="body1">
        <div class="input">
         <h4>Select a Product</h4>
         
         <br/>
+        <!-- PHP post method for saving product price -->
         <form method="POST" action="Ebus2.php">
         
         <label for="Salesforce (SaaS)">
@@ -25,7 +27,7 @@
         </label>
         
         <br/>
-        
+        <!-- Labels for the 4 different services offered in the online shop -->
         <label for="Cloud9 (PaaS)">
         <input type="radio" Id="cloud9" name="product" onClick="disablebtnProceed()"/>
         Cloud9 @ $200
@@ -81,13 +83,14 @@
         </form>
         
         <br/>
+        <!-- Calling Javascript function to add functionality to product selector -->
         <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <a role="button" href="Ebus1.php" class="calc">Clear Choice</a>
     </div>
     
      <div class="footer">
          <h5>Changed your mind?</h5>
-        <a href="../homepage.html">Cancel</a>
+        <a href="../homepage.html" class="cancel">Cancel</a>
     </div>
     
     </body>
