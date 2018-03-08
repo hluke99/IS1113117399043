@@ -6,6 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+         <meta charset="utf-8"/>
         <title>Enter Details</title>
         
         <!--jQuery-->
@@ -29,12 +30,12 @@ session_start();
                     <br/>
                     
                     <label for="Name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Name" maxlength="25">
+                    <input type="text" id="Name" name="name" placeholder="Name" maxlength="25">
                     
                     <br/>
                     
                     <label for="Email">Email:</label>
-                    <input type="text" id="email" name="email" placeholder="Email" maxlength="50">
+                    <input type="text" id="Email" name="email" placeholder="Email" maxlength="50">
                     
                     <br/>
                 
@@ -54,7 +55,7 @@ session_start();
         <a href="Ebus1.php" class="change">Change Selection</a>
         </div>
         
-        <script type="text/javascript" src="ebus2_validator.js" ></script>
+        <script src="ebus2_validator.js" ></script>
         
         
        

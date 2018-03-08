@@ -21,6 +21,16 @@ body{
     float: left;
     clear: left;
 }
+#fav1{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background: #ff4d4d;
+    padding: 20px; 
+    width: 200px;
+    height: 65px; 
+    float: left;
+    clear: left;
+}
 #visit{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 25px;
@@ -59,4 +69,8 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: red;
+}
+
+iframe{
+    border-width: 0px;
 }

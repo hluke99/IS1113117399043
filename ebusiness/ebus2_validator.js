@@ -17,7 +17,7 @@ function validateDetails(){
         
     }
 //ensuring the user cannot leave the name input box blank or less then 2 digits    
-    name = document.getElementById("name").value;
+    name = document.getElementById("Name").value;
      if(name == ""){
         alert("Please enter your Name");
         
@@ -27,7 +27,7 @@ function validateDetails(){
        
    }
 //ensuring the user cannot leave the email input blank or less then 5 digits
-   email = document.getElementById("email").value;
+   email = document.getElementById("Email").value;
    
    if(email == ""){
        alert("Please enter your Email");

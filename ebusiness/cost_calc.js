@@ -7,19 +7,19 @@ function calcSub(){
     
 
 // adding functionality behind the buttons on ebus1 and implementing their values    
- if(document.getElementById('salesforce').checked) {
+ if(document.getElementById('Salesforce(SaaS)').checked) {
     argSubTotal = 100;
 }
 
- if(document.getElementById('cloud9').checked) {
+ if(document.getElementById('Cloud9(PaaS)').checked) {
      argSubTotal = 200;
 }
 
-if(document.getElementById('aws').checked) {
+if(document.getElementById('AWS(IaaS)').checked) {
     argSubTotal = 300;
 }
 
-if (document.getElementById('gmail').checked) {
+if (document.getElementById('Gmail(CaaS)').checked) {
     argSubTotal = 400;
 }
 // passing the values of the function to the calculation function

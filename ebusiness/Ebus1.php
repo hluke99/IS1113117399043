@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <meta charset="utf-8"/>
         <title>Select Product</title>
         
         <link rel="stylesheet" href="Ebusdesign.css" type="text/css" />
         
         <!-- JQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="cost_calc.js"></script>
         
         
     </head>
@@ -21,29 +22,29 @@
         <!-- PHP post method for saving product price -->
         <form method="POST" action="Ebus2.php">
         
-        <label for="Salesforce (SaaS)">
-        <input type="radio" Id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+        <label for="Salesforce(SaaS)">
+        <input type="radio" Id="Salesforce(SaaS)" name="product" checked onClick="disablebtnProceed()"/>
         Salesforce @ $100
         </label>
         
         <br/>
         <!-- Labels for the 4 different services offered in the online shop -->
-        <label for="Cloud9 (PaaS)">
-        <input type="radio" Id="cloud9" name="product" onClick="disablebtnProceed()"/>
+        <label for="Cloud9(PaaS)">
+        <input type="radio" Id="Cloud9(PaaS)" name="product" onClick="disablebtnProceed()"/>
         Cloud9 @ $200
         </label>
         
         <br/>
         
-        <label for="AWS (IaaS)">
-        <input type="radio" Id="aws" name="product" onClick="disablebtnProceed()"/>
+        <label for="AWS(IaaS)">
+        <input type="radio" Id="AWS(IaaS)" name="product" onClick="disablebtnProceed()"/>
         AWS @ $300
         </label>
         
         <br/>
         
-        <label for="Gmail (CaaS)">
-        <input type="radio" Id="gmail" name="product" onClick="disablebtnProceed()"/>    
+        <label for="Gmail(CaaS)">
+        <input type="radio" Id="Gmail(CaaS)" name="product" onClick="disablebtnProceed()"/>    
         Gmail @ $400
         </label>
         
